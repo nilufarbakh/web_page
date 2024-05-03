@@ -1,0 +1,97 @@
+* {
+	font-family: Arial, sans-serif;
+	padding: 0;
+	margin: 0;
+	color: #222222;
+	box-sizing: border-box;
+}
+
+.clearfix::after {
+	content:'';
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+body {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../img/bg4.jpg) no-repeat center / cover;
+	height: 100vh;
+}
+
+.container {
+	width: 930px;
+	margin: 0 auto;
+}
+
+nav {
+	float: right;
+	margin-top: 45px;
+}
+
+.menu {
+	padding: 0;
+	margin: 0;
+	display: block;
+}
+
+.menu li {
+	float: left;
+	display: block;
+	margin-right: 41px;
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 14px;
+    transition: transform 0.3s ease;
+}
+
+.menu a:hover{
+	background-color: #fff;
+	color: black;
+	transform: scale(1.05);
+}
+
+.contact-us {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 200px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-us h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+.contact-form textarea {
+    height: 150px;
+}
+.contact-form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px 20px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.contact-form input[type="submit"]:hover {
+    background-color: #45a049;
+}
